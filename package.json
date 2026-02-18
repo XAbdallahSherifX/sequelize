@@ -1,0 +1,22 @@
+{
+  "name": "sequelize",
+  "version": "1.0.0",
+  "description": "Sequelize CRUD operations",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development node src/main.js --enable-turbo-mode",
+    "dev": "cross-env NODE_ENV=development node --watch src/main.js --enable-turbo-mode",
+    "build": "cross-env NODE_ENV=production node src/main.js --enable-turbo-mode"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cross-env": "^10.1.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mysql2": "^3.17.1",
+    "sequelize": "^6.37.7"
+  }
+}
